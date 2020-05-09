@@ -1,0 +1,219 @@
+@media (max-width: 1100px){
+    .wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .bg{
+        height: auto;
+        width: auto;
+
+    }
+    .name_logo{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .nav_div{
+        margin-right: 140px
+    }
+    .promo_inp{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .input_pr{
+        width: 270px;
+        height: 43px;
+        margin: 10px;
+        font-size: 18px;
+    }
+    .promo_inf{
+        width: 500px;
+    }
+
+    .promo_inf_too{
+        width: 500px;
+    }
+
+    .img_intro{
+        width: 450px;
+    }
+    .pr_inf{
+        width: 450px;
+    }
+
+    .img_feature{
+        width: 300px;
+    }
+    .cart{
+        display: flex;
+        width: 280px;
+        height: auto;
+        margin-left: 30px;
+    }
+    #box_adapt{
+        display: block;
+    }
+    .nav_div{
+        margin: 3px;
+        margin-right: 100px
+    }
+    
+
+
+    @media (max-width: 950px) {
+        .wrap{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+    
+        .bg{
+            width: auto;
+    
+        }
+        .promo{
+            display: flex;
+            flex-direction: column;
+        }
+        .nav_div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            line-height: 1.2;
+        }
+        #but_hidden{
+            display: flex;
+        }
+        #menu_nav{
+            display: none;
+            flex-direction: column;
+            animation: showBlock 0.5s linear forwards;
+            
+        }
+        #menu{
+            display: flex;
+            flex-direction: column;
+        }
+        .nav_a{
+            display: flex;
+        }
+
+        .logo{
+            display: none;
+        }
+        .name_logo{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    
+        .promo_inf{
+            padding: 1px;
+            margin-bottom: 10px;
+            color: white;
+            width: 320px;
+            margin-top: 20px;
+        }
+
+        .promo_inf_too{
+            padding: 1px;
+            margin-bottom: 10px;
+            width: 320px;
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+    
+        .promo_inp{
+            width: 300px;
+            height: 350px; 
+            padding: 0px;
+            margin-bottom: 30px;
+            margin: 0px;
+        }
+    
+        .input_pr{
+            width: 270px;
+            height: 43px;
+            margin: 10px;
+            font-size: 18px;
+        }
+        .none{
+            width: 1px;
+            display: none;
+        }
+        .see{
+            display: inline;
+        }
+
+        .head_text{
+            font-size: 28px;
+        }
+
+        .img_intro{
+            width: 310px;
+        }
+        .pr_inf{
+            width: 300px;
+        }
+
+        .feature_inf{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cart{
+            display: flex;
+            width: 300px;
+            height: auto;
+            margin-left: 0;
+        }
+
+        .punt{
+            width: 300px;
+        }
+
+        .punto{
+            margin-top: 30px;
+        }
+        .adapt{
+            width: 320px;
+        }
+        .friends{
+            width: 230px;
+        }
+        
+        .one-time{
+            width: 300px;
+            height: auto;
+        }
+        
+        .img_slider{
+            width: 300px;
+        }
+        
+        .slider_text{
+            width: 300px;
+        
+        }  
+        .fix{
+            position: fixed;
+        }
+        #pixel{
+            height: 0px;
+        }
+
+
+    
+    }
+}
