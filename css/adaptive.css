@@ -111,7 +111,7 @@
         }
 
         .logo{
-            display: none;
+            margin-top: 0px;
         }
         .name_logo{
             font-size: 30px;
@@ -206,13 +206,6 @@
             width: 300px;
         
         }  
-        .fix{
-            position: fixed;
-        }
-        #pixel{
-            height: 0px;
-        }
-
 
     
     }

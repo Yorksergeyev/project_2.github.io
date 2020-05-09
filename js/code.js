@@ -10,11 +10,12 @@ $(window).scroll(function(){
     
     })
 $(window).scroll(function(){
-    if($(window).scrollTop()>890 && window.innerWidth <= 950){
+    if($(window).scrollTop()>910 && window.innerWidth <= 950){
     document.querySelector('.fix').style.position = 'fixed';
     document.querySelector('.arrow_bg').style.display = 'flex';
     }
-    else if($(window).scrollTop()<895 && window.innerWidth <= 950){
+    else if($(window).scrollTop()<920 && window.innerWidth <= 950){
+        document.querySelector('.fix').style.position = 'static';
         document.querySelector('.arrow_bg').style.display = 'none';
     }
     
