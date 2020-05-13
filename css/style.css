@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
 }
 
+
 .preloader {
     position: fixed;
     left: 0;
@@ -89,8 +90,9 @@
 }
 
 .wrapper{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
+    
 }
 
 .wrap{
@@ -136,7 +138,6 @@
 .logo{
     width: 220px;
     margin-bottom: 45px;
-    animation: top  0.5s linear ;
 }
 
 .name_logo{
@@ -144,21 +145,18 @@
     font-family: var(--font);
     margin-bottom: 40px;
     line-height: 1.2;
-    animation: left 0.5s linear ;
 }
 .head_text{
     font-family: var(--font);
     font-size: 40px;
     margin-bottom: 20px; 
     line-height: 1.2;
-    animation: right 0.5s linear ;
 }
 .text{
     font-family: var(--font);
     font-size: 18px;
     margin-bottom: 20px; 
     line-height: 1.5;
-    animation: bottom 0.5s linear ;
 }
 
 .promo_inp{
@@ -172,7 +170,6 @@
     height: 300px;
     background: rgba(255, 255, 255, 0.2);
     margin: 50px;
-    animation: bottom 0.5s linear ;
 }
 
 .but_bl{
@@ -186,7 +183,6 @@
     font-family: var(--font-but);
     transition: 1s;
     margin-right: 15px;
-    animation: left 0.5s linear ;
 }
 .but{
     width: 180px;
@@ -200,7 +196,6 @@
     padding-left: 30px;
     padding-right: 30px;
     transition: 1s;
-    animation: right 0.5s linear ;
 }
 
 #but_hidden{
@@ -494,39 +489,6 @@
     }
   }
 
-@keyframes right {
-    0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-}
-@keyframes top {
-    0% {
-        transform: translateY(-30%);
-      }
-    100% {
-        transform: translateY(0%);
-    }
-      
-}
-@keyframes left {
-    0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-}
-@keyframes bottom {
-    0% {
-        transform: translateY(30%);
-      }
-      100% {
-        transform: translateY(0%);
-      }
-}
 
 
 

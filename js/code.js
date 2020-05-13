@@ -1,3 +1,5 @@
+
+
 $(window).scroll(function(){
     if($(window).scrollTop()>630 && window.innerWidth >= 951){
     document.querySelector('.fix').style.position = 'fixed';
@@ -73,7 +75,3 @@ $('.one-time').slick({
   }
 
 
-
-
-
-    
